@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lugx</title>
+
+    <!-- External Style -->
+    <link rel="stylesheet" href="css/sytle.css" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="css/font/font-awesome.css" />
+
+    <!-- Poppins Font -->
+    <link rel="stylesheet" href="css/font/poppins-font.css" />
+
+    <style>
+      body {
+        font-family: "Poppins";
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header id="home" class="mb-lg-3">
+      <div class="bg-primary">
+        <nav
+          class="container-md navbar navbar-expand-sm px-2 px-md-0"
+          data-bs-theme="dark"
+          data-bs-target="#lugxNavbar"
+          data-bs-toggle="collapse"
+          aria-expanded="false"
+          aria-controls="Lugx Navbar"
+          aria-label="lugxNavbar"
+        >
+          <div>
+            <i
+              class="fa-brands fa-xbox text-white me-1"
+              style="font-size: x-large"
+            ></i>
+            <a href="#home" class="navbar-brand">LUGX</a>
+          </div>
+          <button type="button" class="navbar-toggler">
+            <span class="navbar-toggler-icon"> </span>
+          </button>
+
+          <div class="navbar-collapse collapse" id="lugxNavbar">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="#home" class="nav-link active">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#ourshopAndNewsletter" class="nav-link ms-sm-3"
+                  >Our Shop</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a href="#tredingGames" class="nav-link ms-sm-3"
+                  >Product Detail</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a
+                  href="#"
+                  class="nav-link ms-sm-3 bg-danger active rounded-5 px-5"
+                >
+                  Sign In
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <section
+          class="d-md-flex flex-row-reverse justify-content-between align-items-center container-sm py-md-5"
+        >
+          <div class="header-image text-center position-relative pb-4">
+            <img
+              class="rounded-5"
+              src="assets/images/header-image.jpg"
+              alt=""
+            />
+
+            <span
+              class="badge bg-primary rounded-5 position-absolute fs-6"
+              style="right: 15%; top: 6%"
+              >22$
+            </span>
+            <span
+              class="badge bg-danger rounded-circle p-3 py-4 fs-6 position-absolute"
+              style="bottom: 0; left: 0"
+              >-40%
+            </span>
+          </div>
+
+          <div class="text-white p-3">
+            <h6>WELCOME TO LUGX</h6>
+            <h3 class="fw-bold">BEST GAMING SITE EVER!</h3>
+            <p
+              class="mt-2 mt-md-4"
+              style="max-width: 400px; text-align: justify"
+            >
+              Lugx This premonition alluded to the war that would continue for
+              centuries afterwards between the Assassins and the Templars.ive
+              the complete saga of Master Assassin Ezio Auditore da Firenze.
+            </p>
+            <div
+              class="d-flex position-relative py-2 py-md-5"
+              style="max-width: 400px"
+            >
+              <input type="text" class="form-control rounded-5" />
+              <button
+                type="button"
+                class="btn btn-danger opacity-75 rounded-5 position-absolute"
+                style="right: 0"
+              >
+                Search Now
+              </button>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <section class="position-relative">
+        <div
+          class="bg-primary rounded-bottom-circle"
+          style="height: 100px"
+        ></div>
+
+        <section class="d-flex justify-content-center">
+          <div
+            class="header-card container d-flex justify-content-between"
+            id="cardAbsoluteContent"
+          >
+            <div class="card">
+              <i
+                class="fs-1 mb-2 fa-solid fa-cloud-arrow-down text-primary"
+              ></i>
+              <h6>free storage</h6>
+            </div>
+            <div class="card">
+              <i class="fs-1 mb-2 fa-solid fa-circle-user text-primary"></i>
+              <h6>user more</h6>
+            </div>
+            <div class="card">
+              <i class="fs-1 mb-2 fa-regular fa-circle-play text-primary"></i>
+              <h6>reply ready</h6>
+            </div>
+            <div class="card">
+              <i class="fs-1 mb-2 fa-solid fa-book text-primary"></i>
+              <h6>easy layout</h6>
+            </div>
+          </div>
+        </section>
+      </section>
+      <div id="emptyContainer"></div>
+    </header>
+
+    <!-- Main -->
+    <main>
+      <!-- Trending Games -->
+      <section
+        id="tredingGames"
+        class="treding-games container"
+        style="margin-top: 6%"
+      >
+        <div class="d-flex justify-content-between">
+          <div>
+            <p class="text-danger m-0 fw-bold" style="font-variant: small-caps">
+              trending
+            </p>
+            <h4>Trending Games</h4>
+          </div>
+          <button
+            type="button"
+            class="btn btn-danger rounded-5 px-3"
+            style="height: fit-content"
+          >
+            <span style="font-variant: small-caps"> view all </span>
+          </button>
+        </div>
+
+        <div
+          class="d-flex flex-wrap justify-content-center justify-content-md-between py-3"
+        >
+          <!-- Card 1 -->
+          <div class="card">
+            <!-- Card Header -->
+            <div class="card-header">
+              <img
+                src="assets/images/trending-games/assassin-creed-1.jpg"
+                alt=""
+                class="card-img-top"
+              />
+              <p class="badge bg-primary">
+                <span style="text-decoration: line-through">&28 </span><br />
+                $20
+              </p>
+            </div>
+            <!-- Card Body -->
+            <div
+              class="card-body d-flex justify-content-between align-items-center"
+            >
+              <div>
+                <span class="card-subtitle">Action</span>
+                <h6 class="card-title">Assasin Creed</h6>
+              </div>
+              <span>
+                <i
+                  class="fa-solid fa-bag-shopping bg-danger p-2 rounded-circle text-white"
+                >
+                </i>
+              </span>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="card">
+            <!-- Card Header -->
+            <div class="card-header">
+              <img
+                src="assets/images/trending-games/assassin-creed-2.jpg"
+                alt=""
+                class="card-img-top"
+              />
+              <p class="badge rounded-pill bg-primary">$44</p>
+            </div>
+            <!-- Card Body -->
+            <div
+              class="card-body d-flex justify-content-between align-items-center"
+            >
+              <div>
+                <span class="card-subtitle">Action</span>
+                <h6 class="card-title">Assasin Creed</h6>
+              </div>
+              <span>
+                <i
+                  class="fa-solid fa-bag-shopping bg-danger p-2 rounded-circle text-white"
+                >
+                </i>
+              </span>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="card">
+            <!-- Card Header -->
+            <div class="card-header">
+              <img
+                src="assets/images/trending-games/assassin-creed-3.jpg"
+                alt=""
+                class="card-img-top"
+              />
+              <p class="badge bg-primary">
+                <span style="text-decoration: line-through">&64 </span><br />
+                $44
+              </p>
+            </div>
+            <!-- Card Body -->
+            <div
+              class="card-body d-flex justify-content-between align-items-center"
+            >
+              <div>
+                <span class="card-subtitle">Action</span>
+                <h6 class="card-title">Assasin Creed</h6>
+              </div>
+              <span>
+                <i
+                  class="fa-solid fa-bag-shopping bg-danger p-2 rounded-circle text-white"
+                >
+                </i>
+              </span>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="card">
+            <!-- Card Header -->
+            <div class="card-header">
+              <img
+                src="assets/images/trending-games/assassin-creed-4.jpg"
+                alt=""
+                class="card-img-top"
+              />
+              <p class="badge rounded-pill bg-primary">$32</p>
+            </div>
+            <!-- Card Body -->
+            <div
+              class="card-body d-flex justify-content-between align-items-center"
+            >
+              <div>
+                <span class="card-subtitle">Action</span>
+                <h6 class="card-title">Assasin Creed</h6>
+              </div>
+              <span>
+                <i
+                  class="fa-solid fa-bag-shopping bg-danger p-2 rounded-circle text-white"
+                >
+                </i>
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Most Played -->
+      <section
+        style="background-color: rgba(128, 128, 128, 0.1)"
+        class="my-5 p-1 p-md-3 most-played-container"
+      >
+        <div class="container my-5 my-md-0">
+          <div class="d-flex justify-content-between my-5 my-md-3">
+            <div>
+              <p
+                class="text-danger m-0 fw-bold"
+                style="font-variant: small-caps"
+              >
+                top games
+              </p>
+              <h4>Most Played</h4>
+            </div>
+            <button
+              type="button"
+              class="btn btn-danger rounded-5 px-3"
+              style="height: fit-content"
+            >
+              <span style="font-variant: small-caps"> view all </span>
+            </button>
+          </div>
+
+          <div class="most-played">
+            <!-- Card 1 -->
+            <div style="position: relative">
+              <div class="card mb-5">
+                <div class="card-header">
+                  <img
+                    src="assets/images/most-played/free-fire.jpg"
+                    alt=""
+                    class="card-img-top"
+                  />
+                </div>
+                <div class="card-body">
+                  <p class="card-subtitle">Adventure</p>
+                  <h6>Free Fire</h6>
+                </div>
+              </div>
+              <button
+                type="button"
+                id="mostPlayedButton"
+                class="btn btn-danger bg-opacity-75 btn-sm rounded-pill"
+              >
+                EXPLORE
+              </button>
+            </div>
+
+            <!-- Card 2 -->
+            <div style="position: relative">
+              <div class="card mb-5">
+                <div class="card-header">
+                  <img
+                    src="assets/images/most-played/pubg.jpg"
+                    alt=""
+                    class="card-img-top"
+                  />
+                </div>
+                <div class="card-body">
+                  <p class="card-subtitle">Adventure</p>
+                  <h6>Pubg</h6>
+                </div>
+              </div>
+              <button
+                type="button"
+                id="mostPlayedButton"
+                class="btn btn-danger bg-opacity-75 btn-sm rounded-pill"
+              >
+                EXPLORE
+              </button>
+            </div>
+
+            <!-- Card 3 -->
+            <div style="position: relative">
+              <div class="card mb-5">
+                <div class="card-header">
+                  <img
+                    src="https://i.pinimg.com/originals/1e/59/33/1e593371b8d77a9c657310789fe2575b.jpg"
+                    alt=""
+                    class="card-img-top"
+                  />
+                </div>
+                <div class="card-body">
+                  <p class="card-subtitle">Adventure</p>
+                  <h6>Spider Man</h6>
+                </div>
+              </div>
+              <button
+                type="button"
+                id="mostPlayedButton"
+                class="btn btn-danger bg-opacity-75 btn-sm rounded-pill"
+              >
+                EXPLORE
+              </button>
+            </div>
+
+            <!-- Card 4 -->
+            <div style="position: relative">
+              <div class="card mb-5">
+                <div class="card-header">
+                  <img
+                    src="assets/images/most-played/god-of-war.jpg"
+                    alt=""
+                    class="card-img-top"
+                  />
+                </div>
+                <div class="card-body">
+                  <p class="card-subtitle">Adventure</p>
+                  <h6>God of War</h6>
+                </div>
+              </div>
+              <button
+                type="button"
+                id="mostPlayedButton"
+                class="btn btn-danger bg-opacity-75 btn-sm rounded-pill"
+              >
+                EXPLORE
+              </button>
+            </div>
+
+            <!-- Card 5 -->
+            <div style="position: relative">
+              <div class="card mb-5">
+                <div class="card-header">
+                  <img
+                    src="assets/images/most-played/bike-racing.jpg"
+                    alt=""
+                    class="card-img-top"
+                  />
+                </div>
+                <div class="card-body">
+                  <p class="card-subtitle">Racing</p>
+                  <h6>Bike Racing</h6>
+                </div>
+              </div>
+              <button
+                type="button"
+                id="mostPlayedButton"
+                class="btn btn-danger bg-opacity-75 btn-sm rounded-pill"
+              >
+                EXPLORE
+              </button>
+            </div>
+
+            <!-- Card 6 -->
+            <div style="position: relative">
+              <div class="card mb-5">
+                <div class="card-header">
+                  <img
+                    src="assets/images/most-played/car-racing.jpg"
+                    alt=""
+                    class="card-img-top"
+                  />
+                </div>
+                <div class="card-body">
+                  <p class="card-subtitle">Racing</p>
+                  <h6>Car Racing</h6>
+                </div>
+              </div>
+              <button
+                type="button"
+                id="mostPlayedButton"
+                class="btn btn-danger bg-opacity-75 btn-sm rounded-pill"
+              >
+                EXPLORE
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Categories -->
+      <section id="categories">
+        <div class="text-center my-2 my-md-4">
+          <p style="font-variant: small-caps" class="text-danger m-0 fw-bold">
+            categories
+          </p>
+          <h4 class="mt-1">Top Categories</h4>
+        </div>
+
+        <div
+          class="container d-flex flex-wrap justify-content-around mb-3 mb-md-5"
+        >
+          <!-- Card 1 -->
+          <div class="card bg-primary">
+            <div class="card-header">
+              <h6>Action</h6>
+              <img
+                class="card-img-bottom"
+                src="assets/images/categories/brawlhalla.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="card bg-primary">
+            <div class="card-header">
+              <h6>Action</h6>
+              <img
+                class="card-img-bottom"
+                src="assets/images/categories/warframe.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="card bg-primary">
+            <div class="card-header">
+              <h6>Action</h6>
+              <img
+                class="card-img-bottom"
+                src="assets/images/categories/alita.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="card bg-primary">
+            <div class="card-header">
+              <h6>Action</h6>
+              <img
+                class="card-img-bottom"
+                src="assets/images/categories/super_people.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="card bg-primary">
+            <div class="card-header">
+              <h6>Action</h6>
+              <img
+                class="card-img-bottom"
+                src="assets/images/categories/tomb-raider.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container-lg p-0 my-0 my-md-4" id="ourshopAndNewsletter">
+        <div class="bg-light" id="ourShop">
+          <h6 class="text-danger">our shop</h6>
+          <h3 class="my-1 my-md-3">
+            Go Pre-Order Buy <br />
+            & Get Best <span class="text-primary">Prices</span> For You!
+          </h3>
+          <p class="mb-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+            natus amet sunt sit distinctio reiciendis?
+          </p>
+          <button type="button" class="btn btn-danger rounded-pill">
+            SHOP NOW
+          </button>
+        </div>
+
+        <img src="assets/images/footer-image.jpg" alt="" />
+
+        <div id="newsletter" class="bg-light">
+          <h6 class="text-danger">newsletter</h6>
+          <h3 class="my-1 my-md-3">
+            Get Up To $100 off <br />
+            Just Buy <span class="text-primary">Subscribe</span> Newsletter!
+          </h3>
+          <div
+            class="d-flex position-relative py-2 py-md-5"
+            style="max-width: 400px"
+          >
+            <input
+              type="text"
+              class="form-control rounded-5"
+              placeholder="Your email..."
+            />
+            <button
+              type="button"
+              class="btn btn-danger opacity-75 rounded-5 position-absolute"
+              style="right: 0"
+            >
+              Subscribe Now
+            </button>
+          </div>
+        </div>
+
+        <div style="height: 50px"></div>
+      </section>
+      <!-- 
+        https://wallpapercave.com/wp/wp5995305.jpg
+       -->
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <section class="bg-primary rounded-top-circle">
+        <p class="text-center text-white m-0 p-5">
+          Copyright
+          <i class="fa-regular fa-copyright"></i>
+          2048 LUGX Gaming Company. All rights reserved. Design:
+        </p>
+      </section>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- Font Awesome JS -->
+    <script src="js/font/font-awesome.js"></script>
+  </body>
+</html>
